@@ -61,7 +61,7 @@
 #include <sys/param.h>
 #include <math.h>
 #include <Iex.h>
-#include <alloca.h>
+#include <malloc.h>
 
 void tiff_read_multiplane(TIFF *t, float scale, ctl::dpx::fb<float> * pixels);
 void tiff_read_interleaved(TIFF *t, float scale, ctl::dpx::fb<float> * pixels);

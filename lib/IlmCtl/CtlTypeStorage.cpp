@@ -64,7 +64,7 @@
 #include <half.h>
 #include <CtlExc.h>
 #include <string.h>
-#include <alloca.h>
+#include <malloc.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
